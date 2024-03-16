@@ -1,0 +1,84 @@
+.select-communication-method-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+}
+.select-communication-method-cards {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  padding-bottom: 120px;
+  justify-content: center;
+}
+.select-communication-method-container1 {
+  flex: 0 0 auto;
+  width: 317px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select-communication-method-container2 {
+  flex: 0 0 auto;
+  width: 317px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select-communication-method-navlink {
+  color: var(--dl-color-gray-white);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-500);
+}
+.select-communication-method-container3 {
+  flex: 0 0 auto;
+  width: 317px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select-communication-method-navlink1 {
+  text-decoration: none;
+  background-color: var(--dl-color-primary-500);
+}
+.select-communication-method-container4 {
+  flex: 0 0 auto;
+  width: 317px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.select-communication-method-navlink2 {
+  text-decoration: none;
+  background-color: var(--dl-color-primary-500);
+}
+@media(max-width: 1200px) {
+  .select-communication-method-navlink1 {
+    color: var(--dl-color-gray-white);
+  }
+  .select-communication-method-navlink2 {
+    color: var(--dl-color-gray-white);
+  }
+}
+@media(max-width: 767px) {
+  .select-communication-method-cards {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+}

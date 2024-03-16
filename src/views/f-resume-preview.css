@@ -1,0 +1,77 @@
+.f-resume-preview-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.f-resume-preview-cards {
+  gap: var(--dl-space-space-fiveunits);
+  width: 50%;
+  display: flex;
+  max-width: 1440px;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: 120px;
+  justify-content: flex-start;
+}
+.f-resume-preview-container1 {
+  width: 552px;
+  height: 658px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.f-resume-preview-text {
+  color: var(--dl-color-gray-black);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.f-resume-preview-textarea {
+  width: 469px;
+  height: 580px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 0px;
+}
+.f-resume-preview-navlink {
+  color: #000000;
+  width: 185px;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-fourunits);
+  text-decoration: none;
+  background-color: var(--dl-color-primary-700);
+}
+.f-resume-preview-button {
+  color: #000000;
+  width: 185px;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-left: var(--dl-space-space-fiveunits);
+  margin-right: var(--dl-space-space-fiveunits);
+  margin-bottom: var(--dl-space-space-fourunits);
+  background-color: var(--dl-color-primary-700);
+}
+@media(max-width: 1200px) {
+  .f-resume-preview-text {
+    color: var(--dl-color-gray-black);
+  }
+}
+@media(max-width: 767px) {
+  .f-resume-preview-cards {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+}

@@ -1,0 +1,11 @@
+.float-window-choose-type-for-communication-container {
+  width: 973px;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: #ffffff;
+  border-width: 1px;
+  flex-direction: column;
+  background-color: #27272D;
+}
